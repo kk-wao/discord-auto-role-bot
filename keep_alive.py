@@ -1,11 +1,11 @@
-from flask import Flask, Response
+from flask import Flask
 from threading import Thread
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return Response("Bot is alive", status=200)
+    return "Bot is alive!", 200
 
 def run():
     app.run(host='0.0.0.0', port=8080)
