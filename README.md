@@ -1,1 +1,0 @@
-# discord-auto-role-bot
